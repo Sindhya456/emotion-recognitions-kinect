@@ -1,12 +1,14 @@
+
 # Core packages
 numpy==1.18.5
+scipy==1.4.1
 pandas==1.2.3
 seaborn==0.11.2
 matplotlib==3.5.0
 #pickle5
 
 # ML and CV packages
-scikit-learn==1.0.1
+scikit-learn==0.22.2.post1   # compatible with numpy 1.18.5 / TF 2.3.0
 tensorflow==2.3.0
 opencv-python==4.5.4.58
 opencv-contrib-python==4.5.4.60
@@ -21,4 +23,4 @@ onnxruntime==1.9.0
 keras2onnx==1.7.0
 
 # Camera Addons: Kinect
-#freenect: install following https://openkinect.org/wiki/Python_Wrapper
+# freenect: install following https://openkinect.org/wiki/Python_Wrapper
